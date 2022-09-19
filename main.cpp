@@ -27,5 +27,10 @@ int main(){
     std::cout << "cross(7):\n";
     std::cout << result;
     std::cout << "\n------------------\n"; // seperator
+
+    result = lower(6);
+    std::cout << "lower(6):\n";
+    std::cout << result;
+    std::cout << "\n------------------\n"; // seperator
     
 }

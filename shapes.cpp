@@ -121,5 +121,18 @@ std::string cross(int size){
 }
 
 std::string lower(int length){
-    
+    std::string result = "";
+    int count = 1;
+    for (int i = 0; i < length; i++){
+        for (int j = 0; j < count; j++){
+            result+="*";
+        }
+        count++;
+        if (i == length - 1){
+            result += "";
+        } else{
+            result += "\n";
+        }
+    }
+    return result;
 }
