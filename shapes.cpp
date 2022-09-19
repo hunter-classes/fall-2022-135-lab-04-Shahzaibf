@@ -173,3 +173,32 @@ std::string trapezoid(int width, int height){
     }
 
 }
+
+std::string checkerboard3x3(int width, int height){
+    std::string result = "";
+    int countstar;
+    int countspace;
+    for (int i = 0; i < height;i++){ //i is rows
+        for (int j = 0;j < width;j++){//j is cols
+            if((j % 6 < 3 && i % 6 < 3) || (j % 6 >=3 && i % 6 >= 3)){
+                if(countstar < 3){
+                    result+="*";
+                }
+                countstar++;
+                if(countstar == 3){
+                    countstar = 0;
+                }
+            } else{
+                if(countspace < 3){
+                    result+=" ";
+                }
+                countspace++;
+                if(countspace == 3){
+                    countspace = 0;
+                }
+            }
+        }
+        result+="\n";
+    }
+    return result;
+}

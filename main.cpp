@@ -43,5 +43,15 @@ int main(){
     std::cout << result;
     std::cout << "\n------------------\n"; // seperator
 
+    result = checkerboard3x3(16,11);
+    std::cout << "checkerboard3x3(16,11):\n";
+    std::cout << result;
+    std::cout << "\n------------------\n"; // seperator
+
+    result = checkerboard3x3(27,27);
+    std::cout << "checkerboard3x3(27,27):\n";
+    std::cout << result;
+    std::cout << "\n------------------\n"; // seperator
+
 
 }
