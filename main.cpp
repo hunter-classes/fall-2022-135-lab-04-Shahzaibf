@@ -32,5 +32,10 @@ int main(){
     std::cout << "lower(6):\n";
     std::cout << result;
     std::cout << "\n------------------\n"; // seperator
+
+    result = upper(5);
+    std::cout << "upper(5):\n";
+    std::cout << result;
+    std::cout << "\n------------------\n"; // seperator
     
 }

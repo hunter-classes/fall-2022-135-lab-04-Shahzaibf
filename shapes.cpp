@@ -136,3 +136,20 @@ std::string lower(int length){
     }
     return result;
 }
+
+std::string upper(int length) {
+    std::string result = "";
+    int count = 0;
+    for(int i = length; i > 0; i--){
+        for (int q = 0; q < count; q++){
+            result+=" ";
+        }
+        count++;
+        for(int j = 0; j < i; j++){
+            result += "*";
+        }
+        result += "\n";
+    }
+    return result;
+    
+}
