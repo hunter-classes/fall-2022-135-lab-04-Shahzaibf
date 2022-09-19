@@ -38,4 +38,10 @@ int main(){
     std::cout << result;
     std::cout << "\n------------------\n"; // seperator
     
+    result = trapezoid(12,5);
+    std::cout << "trapezoid(12,5):\n";
+    std::cout << result;
+    std::cout << "\n------------------\n"; // seperator
+
+
 }

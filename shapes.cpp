@@ -153,3 +153,23 @@ std::string upper(int length) {
     return result;
     
 }
+
+std::string trapezoid(int width, int height){
+    std::string result = "";
+    if ((width % 2 == 1 && height * 2 > width + 1 || width % 2 == 0 && height * 2 > width)){
+        return "Impossible shape!";
+    } else {
+        for (int i = 0; i < height;i++){
+            for(int j = 0; j < width - i; j++){
+                if (j < i){
+                    result += " ";
+                } else {
+                    result += "*";
+                }
+            }
+            result += "\n";
+        }
+        return result;
+    }
+
+}
