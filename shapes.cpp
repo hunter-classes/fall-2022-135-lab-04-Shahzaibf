@@ -1,3 +1,13 @@
+/*
+Author: Shahzaib Fareed
+Course: CSCI-135
+Instructor: Zamansky
+Assignment: Lab 4
+
+    This is where I had coded my funcs from the .h file.
+
+*/
+
 #include <iostream>
 #include "shapes.h"
 

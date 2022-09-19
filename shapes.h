@@ -1,3 +1,12 @@
+/*
+Author: Shahzaib Fareed
+Course: CSCI-135
+Instructor: Zamansky
+Assignment: Lab 4
+
+    .h file containing the headings for all of my functions.
+
+*/
 #pragma once
 
 std::string box(int width, int height);
